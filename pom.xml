@@ -10,6 +10,12 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>Array</module>
+    <module>Stack</module>
+    <module>Stack</module>
+    <module>Stack</module>
+    <module>Deque</module>
+    <module>Queue</module>
+    <module>Stack</module>
   </modules>
 
 

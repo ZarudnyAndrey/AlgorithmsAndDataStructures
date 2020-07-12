@@ -6,8 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Stack" />
         <module name="Array" />
+        <module name="Deque" />
+        <module name="Queue" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="Stack" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
