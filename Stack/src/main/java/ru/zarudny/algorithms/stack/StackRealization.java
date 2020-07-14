@@ -3,8 +3,8 @@ package ru.zarudny.algorithms.stack;
 public class StackRealization {
 
   private int maxSize;
-  private char[] stackArray;
-  private int top;
+  protected char[] stackArray;
+  protected int top;
 
   /**
    LIFO, insertLeft and removeLeft

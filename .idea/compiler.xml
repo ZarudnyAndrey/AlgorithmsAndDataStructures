@@ -9,6 +9,7 @@
         <module name="Stack" />
         <module name="Array" />
         <module name="Deque" />
+        <module name="PriorityQueue" />
         <module name="Queue" />
       </profile>
     </annotationProcessing>
