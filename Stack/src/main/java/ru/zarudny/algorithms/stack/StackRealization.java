@@ -8,6 +8,7 @@ public class StackRealization {
 
   /**
    LIFO, insertLeft and removeLeft
+   Stack realization on base Array
    */
 
   public StackRealization(int size) {
