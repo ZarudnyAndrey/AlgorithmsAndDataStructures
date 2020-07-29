@@ -38,11 +38,11 @@ public class PriorityQueueRealization {
   }
 
   public boolean isEmpty() {
-    return (countElements == 0);
+    return countElements == 0;
   }
 
   public boolean isFull() {
-    return (countElements == maxSize);
+    return countElements == maxSize;
   }
 
   public int size() {

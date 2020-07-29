@@ -22,8 +22,8 @@ public class StackInfix extends StackRealization {
 
     for (int j = 0; j < size(); j++) {
       System.out.println(peekN(j));
-      System.out.println(" ");
+      System.out.println();
     }
-    System.out.println(" ");
+    System.out.println();
   }
 }

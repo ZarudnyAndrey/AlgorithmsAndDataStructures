@@ -7,11 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Queue" />
+        <module name="Iterator" />
         <module name="Deque" />
-        <module name="DoubleSidedList" />
-        <module name="Stack" />
-        <module name="PriorityQueue" />
         <module name="LinkedList" />
+        <module name="Stack" />
+        <module name="SortedList" />
+        <module name="DoublyLinkedList" />
+        <module name="DoubleSidedList" />
+        <module name="PriorityQueue" />
         <module name="Array" />
       </profile>
     </annotationProcessing>

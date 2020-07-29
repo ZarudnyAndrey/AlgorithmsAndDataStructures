@@ -9,7 +9,7 @@ public class LinkList {
   }
 
   public boolean isEmpty() {
-    return (first == null);
+    return first == null;
   }
 
   public void insertFirst(long data) {
@@ -30,6 +30,6 @@ public class LinkList {
       current.displayLink();
       current = current.next;
     }
-    System.out.println("");
+    System.out.println();
   }
 }

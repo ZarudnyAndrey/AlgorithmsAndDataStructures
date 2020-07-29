@@ -16,6 +16,9 @@
     <module>PriorityQueue</module>
     <module>LinkedList</module>
     <module>DoubleSidedList</module>
+    <module>SortedList</module>
+    <module>DoublyLinkedList</module>
+    <module>Iterator</module>
   </modules>
 
   <build>

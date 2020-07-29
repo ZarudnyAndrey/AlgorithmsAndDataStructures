@@ -25,11 +25,11 @@ public class StackPostfix {
   }
 
   public boolean isEmpty() {
-    return (top == -1);
+    return top == -1;
   }
 
   public boolean isFull() {
-    return (top == maxSize - 1);
+    return top == maxSize - 1;
   }
 
   public int size() {
@@ -46,8 +46,8 @@ public class StackPostfix {
 
     for (int j = 0; j < size(); j++) {
       System.out.println(peekN(j));
-      System.out.println(" ");
+      System.out.println();
     }
-    System.out.println(" ");
+    System.out.println();
   }
 }

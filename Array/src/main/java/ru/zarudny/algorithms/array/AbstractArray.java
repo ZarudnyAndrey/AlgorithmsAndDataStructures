@@ -63,6 +63,6 @@ public abstract class AbstractArray {
     for (int j = 0; j < countElements; j++) {
       System.out.print(array[j] + " ");
     }
-    System.out.println("");
+    System.out.println();
   }
 }

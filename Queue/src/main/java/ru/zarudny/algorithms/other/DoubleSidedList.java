@@ -1,4 +1,4 @@
-package ru.zarudny.algorithms;
+package ru.zarudny.algorithms.other;
 
 public class DoubleSidedList {
 
@@ -12,15 +12,6 @@ public class DoubleSidedList {
 
   public boolean isEmpty() {
     return first == null;
-  }
-
-  public void insertFirst(long data) {
-    Link newLink = new Link(data);
-    if (isEmpty()) {
-      last = newLink;
-    }
-    newLink.next = first;
-    first = newLink;
   }
 
   public void insertLast(long data) {
